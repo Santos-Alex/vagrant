@@ -10,6 +10,7 @@ Vagrant.configure("2") do |config|
 
   # Currently "ubuntu/bionic64" on VirtualBox requires `type: "virtualbox"`
   # to make synced folder works.
+  ####
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
  
   # Update repositories
